@@ -3,7 +3,7 @@
 // Define the maximum time, in hours, that a test run should run for
 def testrun_timeout = 6
 
-def distro_name = 'ubuntu'
+def distro_name = 'arm64-ubuntu'
 def distro_version = '2004'
 def nox_env_name = 'runtests-zeromq'
 def nox_passthrough_opts = '--ssh-tests'
